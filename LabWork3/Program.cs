@@ -6,11 +6,13 @@ namespace LabWork3
     {
         static void Main(string[] args)
         {
-            Butterfly butterfly = new Butterfly("Бабочка", "Red");
+            Console.WriteLine("Список бабочек: ");
+            Butterfly butterfly = new Butterfly("Бабочка", "Красный", "Капуста", "15 дней");
             Console.WriteLine(butterfly.PrintValues());
 
-            Butterfly butterfly1 = new Butterfly("Бабочка", "Blue", "Цветы", "12 day");
+            Butterfly butterfly1 = new Butterfly("Бабочка", "Синий", "Цветы", "12 дней");
             Console.WriteLine(butterfly1.PrintValues());
+            Console.ReadLine();
         }
     }
 }
